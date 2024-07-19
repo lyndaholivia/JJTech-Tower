@@ -34,7 +34,7 @@
         yum install httpd -y
         service httpd start
         chkconfig httpd on
-        echo "<html><body><h1>Hello JJTech Team</h1></body></html>" > /var/www/html/index.html
+        echo "<html><body><h1>Hello JJTech Team and this is Lynda</h1></body></html>" > /var/www/html/index.html
 
 #  - debug:
 #      msg: ec2_instance
